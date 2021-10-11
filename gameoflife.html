@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Juego de la vida</title>
+
+</head>
+
+
+<body>
+    <!--   CSS  -->
+
+    <style>
+    
+      
+
+        td {
+            border: #eee solid 1px;
+        }
+    </style>
+
+    <!--   HTML  -->
+
+   
+
+    <header>
+
+        <h1>Game Of Life</h1>
+
+        <br>
+        <input type='button' onClick='random()' Value='random'/>
+        <input type='button' onClick='intercambiarReproduccion()' Value='Play/Stop' />
+        <input type='button' onClick='estadoAnterior()' Value='<<Estado anterior'/>
+        <input type='button' onClick='siguienteEstado()' Value='siguiente Estado>>'/>
+       
+        
+       
+
+
+    </header>
+
+
+    <div id="contenedor-tablero">
+ 
+    </div>
+    <!--   JS  -->
+
+    <script src="gameoflife.js"></script>
+
+
+</body>
+
+</html>
